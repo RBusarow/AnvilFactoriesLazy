@@ -16,4 +16,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "AnvilFactoriesLazy"
 
-include(":lib")
+include(":lib1")
+include(":lib2")

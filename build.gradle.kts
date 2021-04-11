@@ -4,7 +4,7 @@ plugins {
 
 buildscript {
 	dependencies {
-		classpath("com.squareup.anvil:gradle-plugin:2.1.0")
+		classpath("com.squareup.anvil:gradle-plugin:2.2.1")
 		classpath(kotlin("gradle-plugin", version = "1.4.30"))
 	}
 }
