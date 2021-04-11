@@ -9,4 +9,3 @@ class InjectClass @Inject constructor(
 
   @Inject lateinit var stringProvider: Provider<String>
 }
-

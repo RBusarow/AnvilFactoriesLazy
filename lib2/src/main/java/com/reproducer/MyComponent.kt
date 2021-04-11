@@ -20,3 +20,14 @@ interface MyComponent{
     ): MyComponent
   }
 }
+
+fun main() {
+
+  val component = DaggerMyComponent.factory().create("hello")
+
+  val injectClass = component.ic.get()
+
+  // should not crash
+  println(injectClass.stringProvider.get())
+
+}
