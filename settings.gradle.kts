@@ -16,7 +16,7 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "AnvilFactoriesLazy"
+rootProject.name = "AnvilReproducer"
 
 include(":lib")
 include(":app")
