@@ -1,6 +1,7 @@
 pluginManagement {
   repositories {
     gradlePluginPortal()
+    mavenLocal()
     mavenCentral()
     jcenter()
   }
@@ -8,6 +9,7 @@ pluginManagement {
 
 dependencyResolutionManagement {
   repositories {
+    mavenLocal()
     mavenCentral()
     google()
     jcenter()
@@ -17,3 +19,4 @@ dependencyResolutionManagement {
 rootProject.name = "AnvilFactoriesLazy"
 
 include(":lib")
+include(":app")
